@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css">      
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="scrip.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <title> 3NCR1P74D0R 53CR370 </title>
+   </head>
+
+   <body>
+        <header id="logo">
+            <img src="Logo.png" alt="Logo">
+        </header>
+
+        <main>
+            <div class="txt">
+                <input type="text" id="textLimpio" required placeholder="Ingrese el texto aqui.">
+
+                <div id="botones">
+                    <button type="button" id="botonCopiar"> Copiar </button>
+
+                    <button type="button" id="botonEncriptar"> Encriptar </button>
+
+                    <button type="button" id="botonDesencriptar"> Desencriptar </button>
+                </div>
+            </div>
+
+
+            <div class="der">
+                <div class= "muñeco">
+                    <img src="Muñeco.png" alt="Muñeco">
+                    
+                    <section>
+                        
+                        <p> Escribe el texto que desees encriptar o desencriptar. </p>
+
+                        <textarea name="desencriptado" id="resultado" cols="30" rows="10" placeholder="No se encontró ningún mensaje..."></textarea>
+
+                    </section>
+
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <img src="diamod.png" alt="Diamante">
+            <p class="copyright">&copy Copyright Eduardo Calfunao V.</p>
+
+        </footer>
+   </body>
+
+    <script> 
+
+        var boton1 = document.querySelector("#botonEncriptar");
+        boton1.onclick = encriptar;
+
+        var boton2 = document.querySelector("#botonDesencriptar");
+        boton2.onclick = desencriptar;
+
+        var boton3 = document.querySelector("#botonCopiar");
+        boton3.onclick = copiar;
+    </script>
+
+</html>

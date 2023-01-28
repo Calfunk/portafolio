@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 88px;
+}
+
+header img{
+    width: 31.09px;
+    height: 48px;
+    margin-left: 84px;
+    padding-top: 40px;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+main{
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    height: 100%;
+    margin-left: 1%;
+}
+
+.txt{
+    width: 50%;
+    font-size: 32px;
+}
+
+.der{
+    width: 50%;
+    padding-top: 106px;
+    margin-left: 12.5%;
+}
+
+.muñeco{
+    width: 336px;
+    height: 304px;
+    text-align: center;
+}
+
+section textarea{
+    width: 336px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 32px;
+    resize: none;
+    border: none;
+    background-color: #E5E5E5;
+    color: #0A3871;
+}
+
+section p{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 16px;
+    color: #495057;
+}
+
+div input{
+    width: 577px;
+    height: 48px;
+    display: block;
+    margin: auto;
+    margin-top: 108px;
+    margin-left: 240px;
+    border: none;
+    text-align: left;
+    font-size: 32px;
+    background-color: #E5E5E5;
+    color: #343A40;
+}
+
+div button{
+    margin-top: 5%;
+    text-align: center;
+    width: 328px;
+    height: 67px;
+    font-size: 20px;
+    border-radius: 24px;
+
+}
+
+.botones button, #botonEncriptar{
+    background-color: #0A3871;
+    color: white;
+}
+
+.botones button, #botonCopiar{
+    background-color: #0A3871;
+    color: white;
+    display: none;
+}
+
+.botones button, #botonDesencriptar{
+    background-color: #D8DFE8;
+    color: #0A3871
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+}
