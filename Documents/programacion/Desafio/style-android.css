@@ -1,0 +1,116 @@
+*{
+    position: relative;
+    width: 375px;
+    height: 933px;   
+    background: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: auto;
+    height: auto;
+}
+
+#logo{
+    width: 375px;
+    height: 72px;
+}
+
+header img{
+    position: absolute;
+    width: 32px;
+    height: 48px;
+    left: 16px;
+    top: 24px;
+}
+
+head div, #en{
+    height: 350px;
+}
+
+#en input{
+    position: absolute;
+    width: 343px;
+    height: 48px;
+    left: 16px;
+    top: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    border: none;
+}
+
+#en p{
+    width: 211px;
+    height: 18px;
+    top: 58px;
+    left: 64px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+head div, #botones{
+    width: 375px;
+    height: 160px;
+
+}
+
+#botones button{
+    height: 67px;
+    width: 359px;
+    left: 8px;
+    border-radius: 24px;
+    font-size: 16px;
+}
+
+.botones button, #botonEncriptar{
+    color: white;
+    background-color: #0A3871;
+}
+
+.botones button, #botonDesencriptar{
+    color: ##0A3871;
+    background-color: white;
+    margin-top: 24px;
+}
+
+.botones button, #botonCopiar{
+    color: white;
+    background-color: #0A3871;
+    top: 315px;
+    margin-top: 12px;
+    display: none;
+}
+
+head div, #des{
+    height: 307px;
+}
+
+#des textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    position: absolute;
+    width: 277.132px;
+    height: 186px;
+    left: 16px;
+    top: 64px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+footer{
+    height: 90px;
+    margin-top: 55px;
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+}
